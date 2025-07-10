@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 3dcc00324e531f0419316dcbbf0be472
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -84211251250517555
+    second: ChatGPT Image 9 Tem 2025 11_36_00_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 768
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e37d5a73b62cd34e8a30ab37f228727
+      internalID: 2084177162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 768
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a862bb85aeb544794f710555cb72e3
+      internalID: 1266163892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_0
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 768
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fdcf589bf9cef48b9493c8f572e99e
+      internalID: 1628973719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_1
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 767
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d6e8265405327499254574d9c5bd0f
+      internalID: 1296562424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 306
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e6ac518eefa114db758f85f4650ef1
+      internalID: -1830147283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 537
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b54a9effc0ee8c449a4f8ff8e1b776a
+      internalID: -1385823800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 537
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7e1f21ea22023429deb9ccc490926b
+      internalID: -436629866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_5
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 537
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcc2b9f7a436334f9d2a95fb6b92198
+      internalID: -1138287350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 304
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af3f3a4fffe9dd45acfaf39b9d1bd27
+      internalID: -880217959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 75
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f05de8cf0415c45bb7a76e194112f3
+      internalID: -1853473280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 75
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b4a01d5acce304b924df54c484d79a
+      internalID: 917817252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_9
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 75
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd5b91a38e4c5b42abb056ee2e1a51a
+      internalID: 458431298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_10
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 75
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01628ce28b64fb1459e58ffc4c4be97e
+      internalID: -1859502723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calculator icon_11
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 537
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c95ec723e2cf944a0f5198928f84a3
+      internalID: -18253100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9080548e35933e4448b36828d51ccc68
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":153.0,"y":164.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      0: 2084177162
+      1: 1266163892
+      3: -331146887
+      8: -84211251250517555
+      ChatGPT Image 9 Tem 2025 11_36_00_10: 1247223460
+      ChatGPT Image 9 Tem 2025 11_36_00_11: -1559190849
+      ChatGPT Image 9 Tem 2025 11_36_00_12: -1925343236
+      ChatGPT Image 9 Tem 2025 11_36_00_13: 1259770469
+      ChatGPT Image 9 Tem 2025 11_36_00_14: 1525355398
+      ChatGPT Image 9 Tem 2025 11_36_00_15: 1874981296
+      ChatGPT Image 9 Tem 2025 11_36_00_16: 425818906
+      ChatGPT Image 9 Tem 2025 11_36_00_17: -361864902
+      ChatGPT Image 9 Tem 2025 11_36_00_18: 1884345321
+      ChatGPT Image 9 Tem 2025 11_36_00_19: -148273444
+      ChatGPT Image 9 Tem 2025 11_36_00_2: 767718846
+      ChatGPT Image 9 Tem 2025 11_36_00_20: 1690098604
+      ChatGPT Image 9 Tem 2025 11_36_00_21: 1767132537
+      ChatGPT Image 9 Tem 2025 11_36_00_22: -251939117
+      ChatGPT Image 9 Tem 2025 11_36_00_23: 1106645984
+      ChatGPT Image 9 Tem 2025 11_36_00_24: 1410542646
+      ChatGPT Image 9 Tem 2025 11_36_00_25: -2090906400
+      ChatGPT Image 9 Tem 2025 11_36_00_26: 1458350970
+      ChatGPT Image 9 Tem 2025 11_36_00_27: -969197366
+      ChatGPT Image 9 Tem 2025 11_36_00_28: 1943796883
+      ChatGPT Image 9 Tem 2025 11_36_00_29: 1841690881
+      ChatGPT Image 9 Tem 2025 11_36_00_3: -1396753576
+      ChatGPT Image 9 Tem 2025 11_36_00_30: 367090662
+      ChatGPT Image 9 Tem 2025 11_36_00_31: 499706195
+      ChatGPT Image 9 Tem 2025 11_36_00_32: -1966563758
+      ChatGPT Image 9 Tem 2025 11_36_00_33: -159847796
+      ChatGPT Image 9 Tem 2025 11_36_00_34: 1381158722
+      ChatGPT Image 9 Tem 2025 11_36_00_35: -339617061
+      ChatGPT Image 9 Tem 2025 11_36_00_4: 1824718187
+      ChatGPT Image 9 Tem 2025 11_36_00_5: -368529756
+      ChatGPT Image 9 Tem 2025 11_36_00_6: -2028927112
+      ChatGPT Image 9 Tem 2025 11_36_00_7: -1547159882
+      ChatGPT Image 9 Tem 2025 11_36_00_8: -19006307
+      ChatGPT Image 9 Tem 2025 11_36_00_9: 1198336470
+      calculator icon_0: 1628973719
+      calculator icon_1: 1296562424
+      calculator icon_10: -1859502723
+      calculator icon_11: -18253100
+      calculator icon_2: -1830147283
+      calculator icon_3: -1385823800
+      calculator icon_4: -436629866
+      calculator icon_5: -1138287350
+      calculator icon_6: -880217959
+      calculator icon_7: -1853473280
+      calculator icon_8: 917817252
+      calculator icon_9: 458431298
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
