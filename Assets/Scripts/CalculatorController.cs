@@ -42,6 +42,13 @@ public class CalculatorController : MonoBehaviour
     
     public void GetOperation(string operation)
     {
+        if(operation == "x")
+         currentIn += "*";
+        else if (operation == "÷")
+         currentIn += "/";
+        else if  (operation == "%")
+        currentIn += "%";
+        else
         currentIn += operation;
         updateDisplay();
     }
@@ -62,7 +69,6 @@ public class CalculatorController : MonoBehaviour
         }
     }
 
-    
     public void GetComma(string comma)
     {
         currentIn += ".";
@@ -75,22 +81,14 @@ public class CalculatorController : MonoBehaviour
         calculateResult();
     }
 
+   
     
-    public void ToggleNegative()
-    {
-        if (currentIn.StartsWith("-"))
-            currentIn = currentIn.Substring(1);
-        else
-            currentIn = "-" + currentIn;
-
-        updateDisplay();
-    }
-
     
     private void calculateResult()
     {
         try
         {
+            
             result = System.Convert.ToDouble(new System.Data.DataTable().Compute(currentIn, ""));
             currentIn = result.ToString();
             updateDisplay();
@@ -108,7 +106,7 @@ public class CalculatorController : MonoBehaviour
         resultText.text = currentIn;
     }
 
-    
+    // Temizle
     private void clearInp()
     {
         currentIn = "";
