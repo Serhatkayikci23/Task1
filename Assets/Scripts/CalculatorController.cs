@@ -46,9 +46,9 @@ public class CalculatorController : MonoBehaviour
          currentIn += "*";
         else if (operation == "÷")
          currentIn += "/";
-        else if  (operation == "%")
+        else if  (operation == "%")   
         currentIn += "%";
-        else
+      else
         currentIn += operation;
         updateDisplay();
     }
