@@ -15,22 +15,13 @@ public class CalculatorController : MonoBehaviour
          updateDisplay();
     }
 
-    public void OnButtonClick(string buttonValue)
-    {
-        if (buttonValue == "=")
-        {
-            calculateResult();
-        }
-        else if (buttonValue == "C")
-        {
-            clearInp();
-        }
-        else
-        {
-            currentIn += buttonValue;
-            updateDisplay();
-        }
-    }
+ 
+
+
+private bool IsOperator(char c)
+{
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '%';
+}
 
     
     public void GetNumber(int number)
@@ -42,6 +33,16 @@ public class CalculatorController : MonoBehaviour
     
     public void GetOperation(string operation)
     {
+
+ if (currentIn.Length == 0)
+        return;
+
+    char lastChar = currentIn[currentIn.Length - 1];
+    if (IsOperator(lastChar))
+        return;
+
+         
+
         if(operation == "x")
          currentIn += "*";
         else if (operation == "÷")
@@ -54,13 +55,13 @@ public class CalculatorController : MonoBehaviour
     }
 
     
-    public void GetDelete(string delete)
+    public void GetDelete()
     {
         clearInp();
     }
 
     
-    public void GetDeleteLast(string last)
+    public void GetDeleteLast()
     {
         if (currentIn.Length > 0)
         {
@@ -106,7 +107,7 @@ public class CalculatorController : MonoBehaviour
         resultText.text = currentIn;
     }
 
-    // Temizle
+    
     private void clearInp()
     {
         currentIn = "";
