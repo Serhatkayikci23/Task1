@@ -117,6 +117,17 @@ private bool IsOperator(char c)
 
 
 
+
+ public GameObject bubbleEffectPrefab;
+
+    public void SpawnBubbleEffect()
+    {
+        
+        Vector3 spawnPos = transform.position;
+        Instantiate(bubbleEffectPrefab, spawnPos, Quaternion.identity);
+    }
+
+}
    
 
 /*
@@ -166,4 +177,4 @@ private bool IsOperator(char c)
 
         */
 
-}
+
