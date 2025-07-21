@@ -6,6 +6,8 @@ using TMPro;
 
 public class CalculatorController : MonoBehaviour
 {
+ 
+
      public TextMeshProUGUI resultText;
      private string currentIn = "";
     private double result = 0.0;
@@ -16,32 +18,33 @@ public class CalculatorController : MonoBehaviour
     }
 
  
-
-
-private bool IsOperator(char c)
-{
-    return c == '+' || c == '-' || c == '*' || c == '/' || c == '%';
-}
-
-    
+      
     public void GetNumber(int number)
     {
         currentIn += number.ToString();
         updateDisplay();
     }
 
+   
+private bool IsOperator(char c)
+{
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '%';
+}
+
+
     
     public void GetOperation(string operation)
     {
 
+
  if (currentIn.Length == 0)
-        return;
+        return; 
 
     char lastChar = currentIn[currentIn.Length - 1];
     if (IsOperator(lastChar))
         return;
 
-         
+        
 
         if(operation == "x")
          currentIn += "*";
@@ -54,12 +57,21 @@ private bool IsOperator(char c)
         updateDisplay();
     }
 
-    
+      
     public void GetDelete()
     {
         clearInp();
     }
-
+    
+    
+    private void clearInp()
+    {
+        currentIn = "";
+        result = 0.0;
+        updateDisplay();
+        
+    }
+ 
     
     public void GetDeleteLast()
     {
@@ -68,15 +80,15 @@ private bool IsOperator(char c)
             currentIn = currentIn.Substring(0, currentIn.Length - 1);
             updateDisplay();
         }
-    }
-
+    } 
+     
     public void GetComma(string comma)
     {
         currentIn += ".";
         updateDisplay();
     }
 
-    
+  
     public void GetResult(string result)
     {
         calculateResult();
@@ -84,7 +96,7 @@ private bool IsOperator(char c)
 
    
     
-    
+     
     private void calculateResult()
     {
         try
@@ -100,20 +112,14 @@ private bool IsOperator(char c)
             updateDisplay();
         }
     }
-
+  
     
     private void updateDisplay()
     {
         resultText.text = currentIn;
     }
 
-    
-    private void clearInp()
-    {
-        currentIn = "";
-        result = 0.0;
-        updateDisplay();
-    }
+   
 
 
 
